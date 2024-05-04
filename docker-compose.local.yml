@@ -1,0 +1,14 @@
+version: "3.1"
+
+services:
+  app:
+    container_name: application
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    image: application
+    volumes:
+      - ./src/:/var/www/html
+    ports:
+      - 18080:80
+      - 1443:443
