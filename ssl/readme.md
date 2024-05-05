@@ -1,7 +1,7 @@
 Use mkcert to create a local certificate.
 
-[i]mkcert -install[/i]
-[i]mkcert localhost 127.0.0.1 ::1[/i]
+mkcert -install
+mkcert localhost 127.0.0.1 ::1
 
 Rename the files to cert.pem and cert-key.pem
 Make sure the files are in this directory
