@@ -13,3 +13,4 @@ WORKDIR /var/www/html
 
 EXPOSE 180
 EXPOSE 1443
+
